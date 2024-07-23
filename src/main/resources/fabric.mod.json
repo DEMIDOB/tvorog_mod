@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "tvorog",
+  "version": "${version}",
+  "name": "Tvorog Mod",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/tvorog/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.dandemidov.tvorog.client.TvorogClient"
+    ],
+    "main": [
+      "com.dandemidov.tvorog.Tvorog"
+    ]
+  },
+  "mixins": [
+    "tvorog.mixins.json",
+    {
+      "config": "tvorog.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

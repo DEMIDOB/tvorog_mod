@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tvorog:milk_whey"
+    },
+    {
+      "item": "tvorog:milk_whey"
+    },
+    {
+      "item": "minecraft:bucket"
+    }
+  ],
+  "result": {
+    "id": "tvorog:tvorog_bucket",
+    "count": 1
+  }
+}
